@@ -82,4 +82,5 @@ and how to install it.
 Regardless of the IDE used, every submitted project must
 still be compilable with cmake and make.
 
-
+## Output
+<img src="data/output.png" width="960" height="480" alt="data/output" />
