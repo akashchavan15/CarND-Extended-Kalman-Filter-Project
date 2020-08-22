@@ -1,8 +1,12 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter Project 
 Self-Driving Car Engineer Nanodegree Program
 
 In this project we utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Noisy sensors data is fused using extended Kalman filter to obtain RMSE values that are lower than the tolerance.
 The entire code is distributed over different classes. 
+* MeasurementPackage: Container for sensor data
+* KalmanFilter: Provides the kalman filter's predict update loop
+* FusionEKF: Provides an interface to fuse lidar and radar sensors data
+* Tools: Contains uitility functions needed for the algorithm
 
 ## Other Important Dependencies
 
